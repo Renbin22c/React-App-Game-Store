@@ -233,6 +233,7 @@ export function ProductId() {
                     <AiOutlineLike />
                   )}
                 </Button>
+                <div className="ml-4 mt-2">{data?.likes?.length} Like</div>
               </Flex>
             </>
           ) : null}
